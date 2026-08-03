@@ -1,6 +1,6 @@
 # Building Product Recommendation Systems Using Real-World Retail and Gaming Data
 
-An end-to-end data science project that leverages Amazon Product Reviews, Steam user interactions, and Video Game Sales data to build machine learning models and uncover the factors driving customer engagement and product success.
+An end-to-end data science project that leverages Amazon Product Reviews, Steam user interactions, and Video Game Sales data to analyze customer engagement patterns, build predictive machine learning models, and identify the factors associated with product success.
 
 
 ## Project Overview
@@ -39,12 +39,13 @@ The following regression models were evaluated:
 7. Model Evaluation
 
 
-## Key Results
+## Results & Impact
 
 - Random Forest achieved the highest predictive performance among the evaluated regression models.
-- Steam engagement variables, particularly playtime and user activity signals, were the strongest predictors of Global Video Game Sales.
-- Amazon review ratings contributed limited predictive value due to low overlap between Amazon product records and the video game datasets.
-- The results suggest that player engagement signals are more strongly associated with commercial success than sparse external review sentiment data.
+- Global Video Game Sales prediction achieved strong performance using tree-based models, demonstrating the value of engagement and marketplace features.
+- Steam engagement variables, particularly playtime and user activity signals, were among the strongest predictors of Global Video Game Sales.
+- Amazon review ratings provided limited predictive value due to limited overlap between Amazon product records and gaming sales data.
+- The analysis suggests that behavioral engagement signals can be stronger indicators of commercial success than sparse external review sentiment.
 
 ## Author
 Yande Ndiaye
