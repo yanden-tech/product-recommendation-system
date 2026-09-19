@@ -41,15 +41,16 @@ The following regression models were evaluated:
 
 ## Results & Impact
 
-Random Forest achieved the strongest regression performance for the Steam and Global Sales datasets, while Ridge performed best for Amazon review-rating prediction.
+- Random Forest achieved the strongest regression performance for the Steam and Global Sales datasets, while Ridge performed best for Amazon review-rating prediction.
 
-Global Video Game Sales showed meaningful predictive relationships with game characteristics and user engagement signals, although substantial variation remained unexplained.
+- Global Video Game Sales showed meaningful predictive relationships with game characteristics and user engagement signals, although substantial variation remained unexplained.
 
-In the integrated Master Dataset, user engagement signals such as helpful and funny review interactions and playtime showed relatively high predictive importance for Global Sales.
+- In the integrated Master Dataset, user engagement signals such as helpful and funny review interactions and playtime showed relatively high predictive importance for Global Sales.
 
-Amazon review ratings provided limited predictive value, partly reflecting the limited overlap between Amazon product records and gaming sales data.
+- Amazon review ratings provided limited predictive value, partly reflecting the limited overlap between Amazon product records and gaming sales data.
 
-The analysis highlights the potential value of behavioral engagement signals when analyzing commercial outcomes across gaming and review data.
+- The analysis highlights the potential value of behavioral engagement signals when analyzing commercial outcomes across gaming and review data.
+ 
 
 ## Author
 Yande Ndiaye
